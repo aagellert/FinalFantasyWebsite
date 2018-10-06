@@ -1,0 +1,56 @@
+
+
+.imageDesignWidth {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 20rem;
+    margin-bottom: 2vw;
+    border: 1rem solid rgba(0,0,0,.25);
+    border-radius: 1rem;
+}
+.imageDesignWidth:hover{
+    box-shadow: 0px 0px 5px 1.5px blue;
+    background-color: rgba(0,0,0,0.2);
+}
+.imageDesignWidth:focus{
+    box-shadow: 0px 0px 5px 1.5px blue;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 80%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+    margin-top: 2vw;
+    border: 1rem solid rgba(0,0,0,.25);
+    border-radius: 1rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.close {
+    font-size: 10vw;
+}
+
+main p {
+    font: normal normal 1.5rem 'Merienda', cursive;
+    text-align: center;
+    color: black;
+    text-align: justify;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+    position: relative;
+}

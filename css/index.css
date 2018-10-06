@@ -1,0 +1,36 @@
+body, html, .main  {
+    background-image: url("../images/image_background.png");
+    background-repeat: repeat-x;
+    background-color: #bfd3e1;
+    height: 100%;
+}
+
+.tableitems {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+.tableitems td, .tableitems th {
+    border: 1px solid black;
+    padding: 8px;
+    width: 200px;
+    text-align: center;
+}
+
+.tableitems tr:nth-child(even){background-color: #639fd1;}
+
+.tableitems th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: white;
+    color: black;
+    font-family: 'Kalam', cursive;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/*scrolling*/
+section {
+    min-height: 100%;
+}

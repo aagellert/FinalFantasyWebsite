@@ -1,0 +1,28 @@
+.tableitems {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+.tableitems td, .tableitems th {
+    border: 1px solid black;
+    padding: 8px;
+    width: 200px;
+    text-align: center;
+}
+
+.tableitems tr:nth-child(even){background-color: white;}
+
+.tableitems th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #00e0ff;
+    color: black;
+    font-family: 'Kalam', cursive;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.tableitems tr {
+    background-color: #84e8f6;
+}

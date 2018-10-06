@@ -1,0 +1,39 @@
+body {
+    background-image: url("../images/page1_sub02_background.png");
+    background-repeat: repeat-x;
+    background-color: #bfd3e1;
+}
+
+.imgTitle {
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-size: 2rem;
+    color: black;
+    list-style-type: circle;
+}
+
+.videoBorder {
+    border: 2px groove #a0a7da;
+    box-shadow: 0rem 0rem 0.3125rem 0.0625rem rgba(0,0,0,.5);
+}
+
+.mediaBorder {
+    border: 2px groove #a0a7da;
+    box-shadow: 0rem 0rem 0.3125rem 0.0625rem rgba(0,0,0,.5);
+}
+
+.mediaBorder:hover {
+  box-shadow: 0px 0px 5px 1.5px blue;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.mediaBorder:focus {
+  box-shadow: 0px 0px 5px 1.5px blue;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #22b0c5;
+    border-color: #22b0c5;
+}
